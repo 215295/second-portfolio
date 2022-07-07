@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+.section{
+    background-image: url(images/donation3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 20px;
+}
+.container{
+    padding: 50px;
+}
+h1{ padding: 5px 150px;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.information{
+    padding: 4px 150px;
+    font-size: 25px;
+    color:rgb(252, 214, 214);
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(221, 96, 87);
+    border-radius: 5px;
+    border: none;
+
+}
+h2{padding: 5px 150px;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+section{
+    padding: 10px 0px;
+}
+p{
+    padding: 4px 150px;
+    font-size: 20px;
+    color:rgb(146, 141, 141);
+}
+.section2{
+    background-color: aliceblue;
+}
+.button1 {
+    border: none;
+    background-color: bisque;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 3px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .hr-style{
+    width: 70%;
+    
+  }
+
+/* professional experience start here */
+.goods-card{
+    display: flex;
+    padding: 5% 3%;
+    
+    
+    }
+    .food{
+        display: flex;
+    
+    }
+    .card{
+    background-color: rgb(48, 115, 170);
+    margin: 5px ;
+    padding: 5px;
+    text-align: center;
+     height: 400px;
+    border-radius: 15px;
+    width: 100%;
+    
+    
+    }
+    .first{
+        background-color: rgb(54, 170, 131);
+    }
+    .second{
+        background-color:rgb(206, 88, 58) ;
+    }
+    
+
+    
+    .card-image {
+       border: 2px solid white;
+        border-radius: 50%;
+       justify-content: center;
+        text-align: center;
+        width: 100px;
+     padding: 5px;
+        margin: 0 auto;
+        background-color: rgb(233, 105, 105);
+     
+        }
+    
+    
+    
+    .card-image img{
+    border-radius: 40px;
+    background-color: white;
+    
+    
+    }
+    .card:hover{
+
+        box-shadow: 0 5px 4px 3px black;
+        
+        }
+
+        .describtion{
+            display: flex;
+            padding-bottom: 60px;
+            
+        }
+
+
+        .half-width{
+            width:50%;
+            float: left;
+            margin-left: 5%;
+            padding-left: 7%;
+        }
+        .half-width img{
+            width: 85%;
+            border-radius: 60%;
+            padding-top: 30px;
+        }
+
+
+.update{
+    padding-bottom: 70px;
+}
+
+
+.background-color{
+    background-color: hsla(60, 100%, 58%, 0.884);
+    padding: 60px 0;
+    margin: 0 60px;
+}
+
+      .email{
+
+         text-align: center;
+         font-size: 20px;
+         padding: 10px 0px ;
+         width: 180px;
+         border-radius: 5px;
+         cursor: pointer;
+
+      }
+      .subcribe{
+
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0px;
+        width: 180px;
+        color:white;
+        background-color: red;
+        border-radius: 7px;
+        cursor: pointer;
+
+     }
+
+     /* footer start here */
+     .footer{
+        background-color: black;
+        color: blanchedalmond;
+        text-align: center;
+        padding: 40px;
+        font-size: .9rem;
+        
+        }
+       
+            .footer-menu a{
+                display: block;
+           text-transform: uppercase;
+                margin: 10px;
+                padding:30px 10px;
+                text-align: center;
+                display: inline;
+                text-decoration: none;
+                }
+                .footer-menu a:hover{
+                    color: gray;
+                    
+                }
+        
+                .footer-desc{
+                  font-size: 1rem;
+                    }
+                    .footer-desc {
+                        padding-top: 20px;
+                    }
+
+
+
+
+
+
+
+
+      /* footer start here */
